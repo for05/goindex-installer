@@ -3,11 +3,11 @@ addEventListener('fetch', event => {
 });
 
 const tokenURL = 'https://www.googleapis.com/oauth2/v4/token';
-const clientId = '202264815644.apps.googleusercontent.com';
-const clientSecret = 'X4Z3ca8xfWDb1Voo-F9a7ZxJ';
+const clientId = '362642489285-b5bggm31on2tv3pdovep587q85n8rk09.apps.googleusercontent.com';
+const clientSecret = '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';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://raw.githubusercontent.com/donwa/goindex/master/index.js';
+const jsURL = 'https://raw.githubusercontent.com/iswxp/goindex/master/index.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'GoIndex';
