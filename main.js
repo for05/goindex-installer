@@ -7,7 +7,7 @@ const clientId = '362642489285-b5bggm31on2tv3pdovep587q85n8rk09.apps.googleuserc
 const clientSecret = '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';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://raw.githubusercontent.com/iswxp/goindex/master/index.js';
+const jsURL = 'https://raw.githubusercontent.com/for05/goindex/master/index.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'GoIndex';
